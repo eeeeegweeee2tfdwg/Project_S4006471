@@ -52,4 +52,9 @@ public class MelLibrary extends AbstractMelLibrary{
         member.setMemberId(nextMemberId++);
         this.members.add(member);
     }
+    @Override
+    public List<Member> searchMember(int memberId){
+        fowk
+    }
 }
+
