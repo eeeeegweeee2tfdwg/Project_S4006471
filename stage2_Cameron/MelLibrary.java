@@ -4,8 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MelLibrary extends AbstractMelLibrary {
+    @SuppressWarnings("FieldMayBeFinal")
     private ArrayList<Book> books;
+    @SuppressWarnings("FieldMayBeFinal")
     private ArrayList<Member> members;
+    @SuppressWarnings("FieldMayBeFinal")
     private ArrayList<Loan> loans;
     private int nextMemberId = 1;
     private int nextLoanId = 1;
